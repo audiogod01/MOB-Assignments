@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41B493E1B836EAB00FA3777 /* genericCompany.png in Resources */ = {isa = PBXBuildFile; fileRef = E41B493D1B836EAB00FA3777 /* genericCompany.png */; };
+		E435C1E91B81B36100583508 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E435C1E81B81B36100583508 /* images.jpeg */; };
+		E4375D781B7D065C0049F88D /* SettingsSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4375D771B7D065C0049F88D /* SettingsSignUpViewController.swift */; };
+		E4375D7A1B7D06C30049F88D /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4375D791B7D06C30049F88D /* SettingsNavigationController.swift */; };
+		E4375D7C1B7DF2050049F88D /* CandidateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4375D7B1B7DF2050049F88D /* CandidateProfileViewController.swift */; };
+		E475E6EB1B7FA1CC00F5FB98 /* ProfileViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475E6EA1B7FA1CC00F5FB98 /* ProfileViewNavigationController.swift */; };
+		E4940D011B84A06A00F4FB85 /* gender_neutral_user_filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E4940D001B84A06A00F4FB85 /* gender_neutral_user_filled-50.png */; };
+		E4C39F891B7E407200559E8B /* IndividualProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C39F881B7E407200559E8B /* IndividualProfileViewController.swift */; };
+		E4CD21561B7C46C4003C9395 /* rootUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD21551B7C46C4003C9395 /* rootUINavigationController.swift */; };
 		E4E216751B7BA0BE00746041 /* gender_neutral_user-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E216711B7BA0BE00746041 /* gender_neutral_user-25.png */; };
 		E4E216761B7BA0BE00746041 /* settings-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E216721B7BA0BE00746041 /* settings-25.png */; };
 		E4E216771B7BA0BE00746041 /* services-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E216731B7BA0BE00746041 /* services-25.png */; };
 		E4E216781B7BA0BE00746041 /* business-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E216741B7BA0BE00746041 /* business-25.png */; };
+		E4E2167A1B7C3E7200746041 /* jobDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E216791B7C3E7200746041 /* jobDescriptionViewController.swift */; };
 		E4EABBB71B7B1FE3001F9624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EABBB61B7B1FE3001F9624 /* AppDelegate.swift */; };
 		E4EABBBA1B7B1FE3001F9624 /* HELPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4EABBB81B7B1FE3001F9624 /* HELPER.xcdatamodeld */; };
 		E4EABBBC1B7B1FE3001F9624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EABBBB1B7B1FE3001F9624 /* ViewController.swift */; };
@@ -54,10 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E41B493D1B836EAB00FA3777 /* genericCompany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genericCompany.png; sourceTree = "<group>"; };
+		E435C1E81B81B36100583508 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		E4375D771B7D065C0049F88D /* SettingsSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsSignUpViewController.swift; path = ../SettingsSignUpViewController.swift; sourceTree = "<group>"; };
+		E4375D791B7D06C30049F88D /* SettingsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsNavigationController.swift; path = ../SettingsNavigationController.swift; sourceTree = "<group>"; };
+		E4375D7B1B7DF2050049F88D /* CandidateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateProfileViewController.swift; sourceTree = "<group>"; };
+		E475E6EA1B7FA1CC00F5FB98 /* ProfileViewNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewNavigationController.swift; sourceTree = "<group>"; };
+		E4940D001B84A06A00F4FB85 /* gender_neutral_user_filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gender_neutral_user_filled-50.png"; sourceTree = "<group>"; };
+		E4C39F881B7E407200559E8B /* IndividualProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualProfileViewController.swift; sourceTree = "<group>"; };
+		E4CD21551B7C46C4003C9395 /* rootUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = rootUINavigationController.swift; path = ../rootUINavigationController.swift; sourceTree = "<group>"; };
 		E4E216711B7BA0BE00746041 /* gender_neutral_user-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gender_neutral_user-25.png"; sourceTree = "<group>"; };
 		E4E216721B7BA0BE00746041 /* settings-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-25.png"; sourceTree = "<group>"; };
 		E4E216731B7BA0BE00746041 /* services-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "services-25.png"; sourceTree = "<group>"; };
 		E4E216741B7BA0BE00746041 /* business-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-25.png"; sourceTree = "<group>"; };
+		E4E216791B7C3E7200746041 /* jobDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jobDescriptionViewController.swift; sourceTree = "<group>"; };
 		E4EABBB11B7B1FE3001F9624 /* HELPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HELPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EABBB51B7B1FE3001F9624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4EABBB61B7B1FE3001F9624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,7 +111,7 @@
 		E4EABBFF1B7B2333001F9624 /* PostJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostJobViewController.swift; sourceTree = "<group>"; };
 		E4EABC001B7B2333001F9624 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E4EABC011B7B2333001F9624 /* CompaniesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
-		E4EABC021B7B2333001F9624 /* ProfilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; };
+		E4EABC021B7B2333001F9624 /* ProfilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +157,9 @@
 				E4E216721B7BA0BE00746041 /* settings-25.png */,
 				E4E216731B7BA0BE00746041 /* services-25.png */,
 				E4E216741B7BA0BE00746041 /* business-25.png */,
+				E435C1E81B81B36100583508 /* images.jpeg */,
+				E41B493D1B836EAB00FA3777 /* genericCompany.png */,
+				E4940D001B84A06A00F4FB85 /* gender_neutral_user_filled-50.png */,
 			);
 			name = Icons;
 			path = HELPER;
@@ -165,14 +188,21 @@
 		E4EABBB31B7B1FE3001F9624 /* HELPER */ = {
 			isa = PBXGroup;
 			children = (
+				E4CD21551B7C46C4003C9395 /* rootUINavigationController.swift */,
 				E4EABBB61B7B1FE3001F9624 /* AppDelegate.swift */,
 				E4EABBBB1B7B1FE3001F9624 /* ViewController.swift */,
 				E4EABBFE1B7B2333001F9624 /* JobsViewController.swift */,
 				E4EABBFF1B7B2333001F9624 /* PostJobViewController.swift */,
-				E4EABC001B7B2333001F9624 /* SettingsViewController.swift */,
+				E4E216791B7C3E7200746041 /* jobDescriptionViewController.swift */,
 				E4EABC011B7B2333001F9624 /* CompaniesViewController.swift */,
 				E4EABC021B7B2333001F9624 /* ProfilesViewController.swift */,
+				E4375D7B1B7DF2050049F88D /* CandidateProfileViewController.swift */,
+				E4C39F881B7E407200559E8B /* IndividualProfileViewController.swift */,
+				E475E6EA1B7FA1CC00F5FB98 /* ProfileViewNavigationController.swift */,
 				E4EABBBD1B7B1FE3001F9624 /* Main.storyboard */,
+				E4EABC001B7B2333001F9624 /* SettingsViewController.swift */,
+				E4375D771B7D065C0049F88D /* SettingsSignUpViewController.swift */,
+				E4375D791B7D06C30049F88D /* SettingsNavigationController.swift */,
 				E4EABBC01B7B1FE3001F9624 /* Images.xcassets */,
 				E4EABBC21B7B1FE3001F9624 /* LaunchScreen.xib */,
 				E4EABBB81B7B1FE3001F9624 /* HELPER.xcdatamodeld */,
@@ -316,8 +346,11 @@
 				E4E216781B7BA0BE00746041 /* business-25.png in Resources */,
 				E4EABBBF1B7B1FE3001F9624 /* Main.storyboard in Resources */,
 				E4EABBC41B7B1FE3001F9624 /* LaunchScreen.xib in Resources */,
+				E4940D011B84A06A00F4FB85 /* gender_neutral_user_filled-50.png in Resources */,
 				E4E216751B7BA0BE00746041 /* gender_neutral_user-25.png in Resources */,
+				E435C1E91B81B36100583508 /* images.jpeg in Resources */,
 				E4E216761B7BA0BE00746041 /* settings-25.png in Resources */,
+				E41B493E1B836EAB00FA3777 /* genericCompany.png in Resources */,
 				E4EABBC11B7B1FE3001F9624 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,14 +369,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CD21561B7C46C4003C9395 /* rootUINavigationController.swift in Sources */,
+				E4375D7C1B7DF2050049F88D /* CandidateProfileViewController.swift in Sources */,
 				E4EABC031B7B2333001F9624 /* JobsViewController.swift in Sources */,
+				E4375D7A1B7D06C30049F88D /* SettingsNavigationController.swift in Sources */,
 				E4EABBBC1B7B1FE3001F9624 /* ViewController.swift in Sources */,
+				E4E2167A1B7C3E7200746041 /* jobDescriptionViewController.swift in Sources */,
 				E4EABC071B7B2333001F9624 /* ProfilesViewController.swift in Sources */,
 				E4EABBB71B7B1FE3001F9624 /* AppDelegate.swift in Sources */,
 				E4EABC041B7B2333001F9624 /* PostJobViewController.swift in Sources */,
 				E4EABBBA1B7B1FE3001F9624 /* HELPER.xcdatamodeld in Sources */,
+				E475E6EB1B7FA1CC00F5FB98 /* ProfileViewNavigationController.swift in Sources */,
 				E4EABC061B7B2333001F9624 /* CompaniesViewController.swift in Sources */,
 				E4EABC051B7B2333001F9624 /* SettingsViewController.swift in Sources */,
+				E4375D781B7D065C0049F88D /* SettingsSignUpViewController.swift in Sources */,
+				E4C39F891B7E407200559E8B /* IndividualProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

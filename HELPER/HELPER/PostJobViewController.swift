@@ -11,24 +11,17 @@ import Parse
 
 
 class PostJobViewController: UIViewController {
-    var delegate:PostJobViewControllerDelegate! = nil
+    
+    var delegate: PostJobViewControllerDelegate! = nil
     
     @IBOutlet weak var companyTextField: UITextField!
-    
     @IBOutlet weak var contactNameTextField: UITextField!
-    
     @IBOutlet weak var phoneTextField: UITextField!
-    
     @IBOutlet weak var emailTextField: UITextField!
-    
     @IBOutlet weak var jobNatureTextField: UITextField!
-    
     @IBOutlet weak var jobDescriptionTextField: UITextView!
-    
     @IBOutlet var jobDescription: [UITextView]!
   
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -51,8 +44,6 @@ class PostJobViewController: UIViewController {
         job["Email"] = emailTextField.text
         job["JobNature"] = jobNatureTextField.text
         job["JobDescription"] = jobDescriptionTextField.text
-//        job.saveInBackground()
-//        reloadTable()
         
         job.saveInBackgroundWithBlock { (success, error) -> Void in
             
@@ -61,13 +52,11 @@ class PostJobViewController: UIViewController {
                 var alert = UIAlertController(title: "Success!", message: "Job saved successfully!", preferredStyle: .Alert)
                 
                 alert.addAction(UIAlertAction(title: "OKAY", style: UIAlertActionStyle.Default, handler: { (alertAction) -> Void in
-                    self.dismissViewControllerAnimated(true, completion: nil)
-                    
+//                    self.dismissViewControllerAnimated(true, completion: nil)
+                    self.delegate.postJobViewController(self, company: self.companyTextField.text, contactName: self.contactNameTextField.text, Phone: self.phoneTextField.text, Email: self.emailTextField.text, JobNature: self.jobNatureTextField.text);
                 }))
                 
                 self.presentViewController(alert, animated: true, completion: nil)
-                
-                reloadTable()
                 // println("hello, job saved!")
                 
             } else {
@@ -75,15 +64,15 @@ class PostJobViewController: UIViewController {
                 var alertFail = UIAlertController(title: "Try Again", message: "Job Saved Unsuccessfully!", preferredStyle: .Alert)
                 
                 alertFail.addAction(UIAlertAction(title: "OKAY", style: UIAlertActionStyle.Default, handler: { (alertAction) -> Void in
-                    self.dismissViewControllerAnimated(true, completion: nil)
+//                    self.dismissViewControllerAnimated(true, completion: nil)
                 }))
                 
                 self.presentViewController(alertFail, animated: true, completion: nil)
                 
                 
-                println(error?.localizedDescription)
+                //println(error?.localizedDescription)
             }
-            reloadTable()
+            //reloadTable()
         }
     }
     
@@ -92,9 +81,10 @@ class PostJobViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: { () -> Void in
             // Animation Completed.  Code to be executed after animation completion
             
-           reloadTable()
+          
             
          //   self.delegate.postJobViewController(self, company: companyTextField.text, contactName: contactNameTextField.text, Phone: phoneTextField.text, Email: emailTextField.text, JobNature: jobNatureTextField.text)
+            
             
         })
         
@@ -112,18 +102,12 @@ class PostJobViewController: UIViewController {
     }
     */
 
-}
-
-func reloadTable() {
-    NSNotificationCenter.defaultCenter().postNotificationName("reload", object: nil)
+    
 }
 
 
 protocol PostJobViewControllerDelegate {
     
     func postJobViewController(controller:PostJobViewController, company:String, contactName:String, Phone:String, Email:String, JobNature:String)
-    
-//    func jobDidFinishPosting() 
-
-    
+ 
 }
